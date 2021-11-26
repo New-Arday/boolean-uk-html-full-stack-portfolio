@@ -4,23 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="portfolio.css" />
     <title>Full Stack Portfolio</title>
   </head>
   <body>
+    <!-- HEADER -->
     <div class="container">
-      <!-- HEADER -->
-      <div class="top-header">
-        <header>
-          <p class="my-name">Full Name</p>
+      <header class="wrapper-header">
+        <div class="nav-content">
+          <p class="my-name box" id="top">Full Name</p>
 
-          <nav>
+          <nav class="box">
             <ul>
-              <li>About Me</li>
-              <li>Portfolio</li>
-              <li>experience</li>
+              <li class="nest">About Me</li>
+              <li class="nest">Portfolio</li>
+              <li class="nest">experience</li>
             </ul>
           </nav>
+        </div>
+        <div class="text-header box">
           <h1>Hiring A Full-Stack Developer?</h1>
           <p>
             I have experience with <strong>React,NodeJS </strong> and
@@ -28,8 +30,9 @@
             <em>innovative</em> and <em>eco-friendly</em> start-up in the
             <strong>sustainable energy section</strong>.
           </p>
-        </header>
-      </div>
+        </div>
+      </header>
+
       <!-- ABOUT ME SECTION -->
       <section class="about-sec">
         <h2>ABOUT ME</h2>
@@ -53,6 +56,7 @@
             <li>NodeJS</li>
           </ul>
         </div>
+        <a href="#experience">Experience</a>
       </section>
       <!-- PORTFOLIO -->
       <section class="portfolio">
@@ -65,8 +69,8 @@
             Explicabo quis ipsam nobis fuga, dolorem adipisci sequi maxime qui,
             aliquam necessitatibus earum minima.
           </p>
-          <button><a href="#">READ MORE</a></button>
-          <a href="#">GitHub Repo</a>
+          <button><a href="article.html">READ MORE</a></button>
+          <a href="https://github.com/">GitHub Repo</a>
         </div>
 
         <div class="card">
@@ -77,8 +81,8 @@
             Explicabo quis ipsam nobis fuga, dolorem adipisci sequi maxime qui,
             aliquam necessitatibus earum minima.
           </p>
-          <button><a href="#">READ MORE</a></button>
-          <a href="#">GitHub Repo</a>
+          <button><a href="article.html">READ MORE</a></button>
+          <a href="https://github.com/">GitHub Repo</a>
         </div>
 
         <div class="card">
@@ -89,13 +93,13 @@
             Explicabo quis ipsam nobis fuga, dolorem adipisci sequi maxime qui,
             aliquam necessitatibus earum minima.
           </p>
-          <button><a href="#">READ MORE</a></button>
-          <a href="#">GitHub Repo</a>
+          <button><a href="article.html">READ MORE</a></button>
+          <a href="https://github.com/">GitHub Repo</a>
         </div>
       </section>
       <!-- EXPERIENCE SECTION -->
       <section class="experience">
-        <h2>EXPERIENCE</h2>
+        <h2 id="experience">EXPERIENCE</h2>
         <div class="job-title">
           <h4>Job Title</h4>
           <p>
@@ -114,6 +118,7 @@
             totam dolores error molestias architecto cumque!
           </p>
         </div>
+        <p><a href="#top">Top</a></p>
       </section>
       <footer>&copy;Lorem ipsum</footer>
     </div>

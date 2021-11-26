@@ -1,7 +1,7 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 body {
 }
 header {
@@ -13,6 +13,8 @@ strong {
 em {
 }
 nav {
+  display: grid;
+  place-items: end;
 }
 ul {
 }
@@ -35,10 +37,36 @@ footer {
 
 /* General-Rullings Section */
 .container {
+  background-color: aliceblue;
 }
 
 /* HEADER SECTION */
-.top-header {
+
+.wrapper-header {
+  display: grid;
+  grid-template-rows: 200px 1fr
+  grid-template-columns:200px 1fr;
+  gap:5px;
+}
+
+.header-layout {
+}
+
+.nest {
+  /* border: solid green 2px;
+  padding: 10px; */
+}
+.text-header {
+  /* background-color: aqua; */
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+.nav-content {
+  /* background-color: cornflowerblue; */
+  display: grid;
+  grid-template-columns: 100px auto;
+  gap: 5px;
 }
 .my-name {
 }
